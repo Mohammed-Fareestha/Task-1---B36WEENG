@@ -1,0 +1,29 @@
+Hello, this is Mohammed Fareestha
+
+
+
+1. Write a blog on Difference between HTTP1.1 vs HTTP2
+
+
+=> First of all let see what is HTTP , Hypertext Transfer Protocol (HTTP) is an application-layer protocol for transmitting hypermedia documents, such as HTML.
+
+=> HTTP1.1 found in 1997 & HTTP2 found in 2015
+
+=>  HTTP is a network delay sensitive protocol in the sense that if there is less network delay, then the page loads faster.
+
+=> HTTP2 is much faster and more reliable than HTTP1.1
+
+=> In HTTP1.1 It supports connection reuse i.e. for every TCP connection there could be multiple requests and responses
+
+=> In HTTP2 , Uses multiplexing, where over a single TCP connection resources to be delivered are interleaved and arrive at the client almost at the same time.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2. Write a blog about objects and its internal representation in Javascript
+
+
+=> Objects, in JavaScript, is it’s most important data-type and forms the building blocks for modern JavaScript. 
+
+=>These objects are quite different from JavaScript’s primitive data-types(Number, String, Boolean, null, undefined and symbol)
+
+=> Objects are more complex and each object may contain any combination of these primitive data-types as well as reference data-types.
