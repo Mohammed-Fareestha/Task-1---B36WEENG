@@ -1,0 +1,20 @@
+Hello, This is Mohammed Fareestha
+
+1. Write a blog Differentiate Between Document and Window objects ?
+
+DOCUMENT                                                                                   .WINDOW  OBJECT
+                                                                                                                
+=> It represents any HTML document or web page that is         => It represents a browser window or frame that displays the
+     loaded in the browser.                                                                    contents of the webpage.
+
+=> It is loaded inside the window.                                                => It is the very first object that is loaded in the browser.
+
+=> It is the object of window property                                         => It is the object of browser
+
+=> All the tags, elements with attributes in HTML                      => Global objects, functions, and variables of JavaScript are members
+    are part of the document.                                                                of the window object.
+
+=> Example:                                                                                  => Example:  
+
+      document.title :  will return the title of the                                 window.innerHeight : will return the height of the content area 
+      document                                                                                       of the browser
