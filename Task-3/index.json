@@ -1,0 +1,48 @@
+{
+    "basics": {
+        "name": "Mohammed Fareestha",
+        "email": "mohammedfareestha@gmail.com",
+        "phone": "737373737",
+        "degree": "",
+        "website": "https://www.linkedin.com/in/mohammed-fareestha-61aa17204/",
+        "summary": "Hello all , I my-self Mohammed Fareestha B.tech Electronics and Communications Engineering from SRM Institute of Science and Technology , Love to write clean code and come up with solutions using software design patterns and Object Oriented Programming approaches whenever possible, Very much interested in full stack development and I am currently into MERN Stack and Looking forward to kick-start my career in an organization that gives me chance to prove my abilities and helps to develop my technical, interpersonal skills and achieving the vision of the organization",
+        "location": {
+            "address": "xxxxxx",
+            "postalCode": "xxxxxxx",
+            "city": "Chennai",
+            "countryCode": "yyyyyyyy",
+            "region": "india"
+        },
+        "profiles": [{
+            "network": "A social media or other profile that you would like to include (e.g. LinkedIn, Twitter)",
+            "username": "fareestha_kitrow",
+            "url": "https://www.linkedin.com/in/mohammed-fareestha-61aa17204/"
+        }]
+    },
+    "education": [{
+        "institution": "SRMIST",
+        "area": "Kattankulathur",
+        "studyType": "B.tech",
+        "startDate": "2019",
+        "endDate": "2023",
+        "gpa": "8.98",
+        "courses": " Electronics and Communications Engineering (ECE)"
+    }],
+    "skills": [{
+        "name": "wEB DEVELOPMENT",
+        "level": "INTERMETATE",
+        "keywords": [
+            "HTML, CSS, NODEJS,JAVASCRIPT, REACTJS,PYTHON"
+        ]
+    }],
+    "languages": [{
+        "language": "tamil,English",
+        "fluency": "language fluency"
+    }],
+    "interests": [{
+        "name": "Web developent",
+        "keywords": [
+            "coding,problem solving"
+        ]
+    }]
+}
