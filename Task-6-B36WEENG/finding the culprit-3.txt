@@ -1,0 +1,151 @@
+Name : Mohammed Fareestha
+Part 2 : Find the culprits and nail them — debugging javascript
+Question Link : https://medium.com/@reach2arunprakash/guvi-zen-simple-debugging-tasks-adcdc2d3249dhttps://medium.com/@reach2arunprakash/guvi-zen-simple-debugging-tasks-adcdc2d3249d
+
+_______________________________________________________________________________________________________________________________________
+
+1.Fix the code to get the largest of three.
+
+aa = (f,s,t) => {
+  console.log(f,s,t);
+  if(f>s &&f>t){
+  console.log(f)}
+  else if(s>f && s>t){
+  console.log(s)}
+  else{
+  console.log(t)}
+ }
+ aa(1,2,3);
+
+//  remove the statement let f,s,t; as they create new variables
+-------------------------------------------------------------------------------------------------------------------
+2. Fix the code to Sum of the digits present in the number
+
+let n = '123';
+console.log(add(n));
+function add(n)
+{
+let sum = 0;
+for(var i=0;i<n.length;i++){
+ sum+=parseInt(n[i])
+ }
+ return sum;
+}
+--------------------------------------------------------------------------------------------------
+3. sum of arr 
+
+const arr = [9,8,5,6,4,3,2,1];
+(function() {
+ let sum = 0;
+ for (var i = 0; i < arr.length; i++){
+ sum += arr[i];
+ }
+ console.log(sum);
+ return sum;
+})();
+
+// remove the ';' at the end of for loop and limit the iteration with in the array.
+-----------------------------------------------------------------------------------------------------------
+4.Fix the code to gen Title caps.
+
+var arr = ["guvi", "geek", "zen", "fullstack"];
+var ano = function(arro) {
+ for (var i = 0; i < arro.length; i++) {
+ console.log(arro[i][0].toUpperCase() + arro[i].substr(1));
+ }
+}
+ano(arr);
+
+// send the argument arr the function expression. and limit the iteration.
+//for each iteration index '0' is coverted to upper character and remaining characters are 
+// appended.
+---------------------------------------------------------------------------------------------------------------
+5. getting prime numbers
+const newArray=[1,3,2,5,10,12,13];
+const myPrime=newArray.filter(num=>{
+ for(let i=2;i<num;i++)
+ {
+    if(num%i===0)
+    {
+    return false;
+    }
+ }
+ return num;
+});
+console.log(myPrime);
+---------------------------------------------------------------------------------------------------------
+6. rotating the array k times.
+
+var arr = [1, 2, 3, 6, 8, 6, 1, 9, 10, 12, 13];
+var k = 3;
+k = arr.length % k;
+(function() {
+ var out = arr.slice(k + 1, arr.length);
+ var count = out.length;
+ for (var i = 0; i < k + 1; i++) {
+ out[count] = arr[i];
+ count += 1;
+ }
+ console.log(out);})();
+----------------------------------------------------------------------------------------------------------
+7.
+var arr = [1, 2, 3, 5, 7, 79, 7, 2, 6, 9, 4];
+(function() {
+ for (var i = 0; i < arr.length; i++) {
+ if (arr[i] % 2 !== 0) {
+ console.log(arr[i]);
+ }}
+})();
+
+//replacing '!' in the if condition gives us odd numbers in the arr.
+---------------------------------------------------------------------------------------------------------
+8.reverse  string.
+(function(str){
+  var str1 = str.split("").reverse().join("");
+  console.log(str1); 
+ })("sudharshan")
+
+// we cant split a string with space as there are no spaces.
+---------------------------------------------------------------------------------------------------------
+9. Removing the duplicates.
+
+var res = function(arr){
+  newArr = [];
+  for(var i=0; i < arr.length; i++)
+  {
+   
+    if(newArr.indexOf(arr[i].toLowerCase()) == -1) 
+    {
+      newArr.push(arr[i].toLowerCase());
+    }
+    else{
+      delete newArr[newArr.indexOf(arr[i].toLowerCase())];
+      // if the index is !== -1 then it is already in the newArr
+      // so we need to remove the value using the index of its location.
+    }
+  }
+  console.log(newArr)
+ }
+ res(["guvi","geek","guvi","duplicate","geeK"])
+---------------------------------------------------------------------------------------------------
+10.
+
+var array =[[["firstname","vasanth"],["lastname","Raje"],["age",24],["role","JSWizard"]],[["firstname","Sri"],["lastname","Devi"],["age",28],["role", "Coder"]]];
+var final=[]
+while(array.length!=0)
+{
+ var outer_remove = array.shift();
+ new_object = {}
+ while(outer_remove.length!=0)
+ {
+  var inner_remove = outer_remove.shift()
+  var key = inner_remove[0]
+  var value =inner_remove[1]
+  new_object[key]=value
+ }
+ final.push(new_object)
+}
+
+console.log(final)
+//array.shift() removes the first item of the array.
+// we are creating a new object for each array.shift() operation and pushing it into the final array.
