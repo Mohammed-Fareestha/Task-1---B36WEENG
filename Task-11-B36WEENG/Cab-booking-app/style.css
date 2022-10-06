@@ -1,0 +1,44 @@
+body{
+    background-color: aliceblue;
+    padding: 50px 0;
+}
+
+
+.container{
+    max-width: 1170px;
+    width: 100%;
+    margin: auto 0;
+    display: flex;
+};
+
+.coloum{
+    margin: 0 15px 25px;
+    border-radius: 10px;
+    flex-basis: 33%
+};
+
+.card{
+    padding: 15px 25px;
+}
+
+.textboxid
+{
+    height:20px;
+    font-size:14pt;
+}
+.btn{
+    color: white;
+    background-color: rgb(32, 129, 32);
+    width: 70px;
+    height: 40px;
+    margin-top: 1cm;
+    cursor: pointer;
+}
+label{
+    text-size-adjust: 1cm;
+}
+
+.footer{
+    color: black;
+    padding-top: 2cm;
+}

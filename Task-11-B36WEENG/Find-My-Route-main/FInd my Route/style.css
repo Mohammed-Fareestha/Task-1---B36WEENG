@@ -1,0 +1,74 @@
+body{
+    color: aliceblue;
+    background-color: rgb(68, 108, 119);
+}
+
+.head{
+    text-align: center;
+    color: black;
+}
+.currentlo{
+    margin-left: 1cm;
+    margin-top: 2cm;
+}
+
+select{
+    height: 20px;
+    width: 400px;
+}
+
+.button{
+    margin-top: 2cm;
+    margin-left: 15cm;
+
+}
+
+.btn{
+    color: aliceblue;
+    background-color:rgb(59, 157, 59) ;
+    padding: 10px;
+    width: 100px;
+    cursor: pointer;
+
+}
+
+.container{
+    max-width: 1170px;
+    width: 100%;
+    margin: auto 0;
+    display: flex;
+};
+
+.coloum{
+    margin: 0 15px 50px;
+    border-radius: 10px;
+    flex-basis: 33%
+};
+
+.card{
+    padding: 15px 25px;
+}
+
+.button-re{
+    padding-top: 1cm;
+    padding-left: 1cm;
+
+}
+.btn2{
+    color: aliceblue;
+    background-color:gray ;
+    padding: 10px;
+    width: 100px;
+    cursor: pointer;
+}
+.map{
+
+    padding-left: 6cm;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+
+}
+.pick{
+    text-align: center;
+    padding-top: 2cm;
+}
