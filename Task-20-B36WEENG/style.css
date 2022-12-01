@@ -1,0 +1,43 @@
+body{
+    background-image: url('/img-0.jpg');
+}
+
+.card{
+    margin-top: 50px;
+}
+.btn{
+    background-color: rgb(14, 122, 50);
+    color: aliceblue;
+}
+
+.btn:hover{
+    background-color: black;
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
